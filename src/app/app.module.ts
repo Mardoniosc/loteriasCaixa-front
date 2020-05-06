@@ -3,9 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { LoteriaModule } from './modules';
+
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule],
+  imports: [BrowserModule, LoteriaModule],
   providers: [],
   bootstrap: [AppComponent],
 })
