@@ -3,11 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { LoteriaModule } from './modules';
+import { LoteriaModule, LoteriaRoutingModule } from './modules';
+
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, LoteriaModule],
+  imports: [
+    BrowserModule,
+    LoteriaModule,
+    LoteriaRoutingModule,
+
+    AppRoutingModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
