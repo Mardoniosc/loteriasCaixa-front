@@ -15,7 +15,7 @@ export class LotofacilResultsComponent implements OnInit {
   }
 
   testeResultados() {
-    this.resultadosService.resultadoLotofacil(1500).subscribe(
+    this.resultadosService.resultadoLotofacil(1500, 'mega_sena').subscribe(
       (data) => {
         console.log(data);
       },
