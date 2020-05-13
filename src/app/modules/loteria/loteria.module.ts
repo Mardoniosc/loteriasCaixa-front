@@ -5,10 +5,19 @@ import {
   IndexLoteriaComponent,
   LoteriaGeral,
   LotofacilComponent,
+  LotofacilResultsComponent,
 } from './components';
 
+import { ResultadosLoteriaService } from './services';
+
 @NgModule({
-  declarations: [IndexLoteriaComponent, LoteriaGeral, LotofacilComponent],
+  declarations: [
+    IndexLoteriaComponent,
+    LoteriaGeral,
+    LotofacilComponent,
+    LotofacilResultsComponent,
+  ],
   imports: [CommonModule, RouterModule],
+  providers: [ResultadosLoteriaService],
 })
 export class LoteriaModule {}

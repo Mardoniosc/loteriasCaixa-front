@@ -1,0 +1,7 @@
+{
+  "/api/*": {
+    "target": "https://www.lotodicas.com.br",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

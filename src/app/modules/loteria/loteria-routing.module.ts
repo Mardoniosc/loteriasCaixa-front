@@ -5,6 +5,7 @@ import {
   IndexLoteriaComponent,
   LoteriaGeral,
   LotofacilComponent,
+  LotofacilResultsComponent,
 } from './components';
 
 export const routesLoteria: Routes = [
@@ -13,6 +14,7 @@ export const routesLoteria: Routes = [
     component: LoteriaGeral,
     children: [
       { path: '', component: IndexLoteriaComponent },
+      { path: 'resultado/lotofacil', component: LotofacilResultsComponent },
       { path: 'lotofacil', component: LotofacilComponent },
     ],
   },

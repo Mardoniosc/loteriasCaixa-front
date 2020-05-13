@@ -31,6 +31,7 @@ module.exports = {
   rules: {
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
+    "no-useless-constructor": "off",
     "import/extensions": [
       "error",
       "ignorePackages",

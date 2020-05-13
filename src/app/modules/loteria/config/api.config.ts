@@ -1,0 +1,3 @@
+export const Token = {
+  TOKEN: '4944c564b3025e5aa92121116e20219c7513c79e11e9c9004dc98e36511667da',
+};
